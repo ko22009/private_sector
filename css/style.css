@@ -970,9 +970,6 @@ h4 {
 	.checking, .checking:hover {
         background-size: cover;
     }
-	.checking__input {
-        padding: 10px;
-	}
 	.checking_overlay {
 	    padding-left: 15px;
 		padding-right: 15px;
@@ -980,6 +977,10 @@ h4 {
 	.checking__header {
 	    margin: 0 auto;
 	}
+	.checking__button {
+        margin-top: 12px;
+        margin-left: 0;
+    }
 }
 
 @media only screen and (max-width : 768px) {
@@ -999,10 +1000,6 @@ h4 {
         padding: 10px;
         padding-top: 20px;
         padding-bottom: 40px;
-    }
-    .checking__button {
-        margin-top: 12px;
-        margin-left: 0;
     }
 	.header__text {
 	    padding: 10px;
