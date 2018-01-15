@@ -1004,6 +1004,9 @@ h4 {
         margin-top: 12px;
         margin-left: 0;
     }
+	.header__text {
+	    padding: 10px;
+	}
 }
 
 @media only screen and (max-width : 320px) {
