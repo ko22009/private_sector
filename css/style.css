@@ -408,9 +408,9 @@ a {
 .checking__header {
     color: #fff;
     display: table;
-    margin: 0 auto;
     text-align: left;
     max-width: 660px;
+    margin-left: 110px;
 }
 
 .checking__header h2 {
@@ -785,6 +785,7 @@ h4 {
     display: block;
     margin-top: 50px;
 	font-size: 1.3rem;
+	text-align: center;
 }
 
 .modal__button:hover {
@@ -974,6 +975,9 @@ h4 {
 	.checking_overlay {
 	    padding-left: 15px;
 		padding-right: 15px;
+	}
+	.checking__header {
+	    margin: 0 auto;
 	}
 }
 

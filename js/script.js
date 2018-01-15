@@ -101,4 +101,7 @@ $(document).ready(function() {
 	$('#form_phone').mask("+7 (999) 999-99-99");
 	$('#form_name').bind('keypress', testInput);
 	
+	$('#form_phone2').mask("+7 (999) 999-99-99");
+	$('#form_name2').bind('keypress', testInput);
+	
 });
